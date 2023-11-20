@@ -1,0 +1,60 @@
+  body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-size: cover;
+            transition: background-image 1s ease-in-out;
+        }
+
+        h1 {
+            color: #302946;
+            font-family: 'Poppins';
+			
+
+        }
+		mark { 
+			  background-color:    #000000   ;
+			  color:   #F86464
+ ;
+			  
+            
+            padding: 10px; 
+            border-radius: 18px; 
+}
+
+        .container {
+            margin: 50px;
+            padding: 20px;
+            background-color:     #403c3b   ;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        textarea {
+            width: 80%;
+            height: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            background-color: #1E1E1E;
+            color: #FFFFFF;
+            border: 1px solid #555;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 12px 28px;
+            background-color: #F02B2B;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+        button:hover {
+            background-color: #28BD16;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
