@@ -10,8 +10,9 @@ Alias Validator is a powerful tool designed to streamline the content PR and ind
 
  * ## Main Interface
    * Upon reaching the site, you'll encounter a clean and user-friendly interface with a single textarea.
+     
+   ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/eb7aebe0-1de8-4152-9ace-02082bdb67ab)
 
-![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/8313fb2b-61c8-486d-8886-fc6c36077da1)
 # Steps to follow
 
   1. ### Paste HTML Code
@@ -45,30 +46,38 @@ Alias Validator performs a thorough analysis of the provided HTML code and provi
 
 *  ###  Missing Alias:
         "Missing alias for link with href = 'https://www.w3schools.com'."
-   ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/d05cd1b5-039e-434a-a2fa-94e60db8abe9)
+   ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/753a12b8-07a0-46dd-9b46-ddb3a4c55e02)
+
 
 
 *  ###  Invalid Alias Format:
         "Invalid alias 'hello.a' for link with href = 'https://www.w3schools.com'."
-  ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/333c0550-ff05-48f1-bef3-a9bea399d93a)
+   ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/79ed7297-4781-47cc-b5b4-d6f4b2fc9806)
+
 
 
 *  ###  Duplicate Aliases:
         "Duplicate alias 'hello' found for link with href = 'https://www.w3schools.com'."
-  ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/7cd8ae3d-0e97-468b-8d3e-57ae9846e790)
-
+   ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/c75b011a-d111-4f5e-b2f8-ed951819bc5e)
 
 *  ###  Tag Structure Errors:
         "Image is not hosted on SFMC tag: "smiley.gif" "
-  ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/88441468-c24f-43d3-8499-b0edade54231)
+   ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/f9b39cc0-044a-43dc-a451-960ff8c9f3f2)
 
 
 *  ###  Consecutive <!--[if mso]> Tags Error:
         "Two consecutive <!--[if mso]> tags detected."
- ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/ca41e16e-27c3-4feb-9c3c-f99bd391491d)
+   ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/a415b743-a03b-449a-bd05-68bf7599a9ee)
+   <img width="960" alt="image" src="https://github.com/Balu-Phanendra-K/alias/assets/144592153/081287c1-89b8-4560-82e3-965cdcd09ae7">
+
+
 
 
 *  ###  Unsubscribe Content Block:
        " No Unsubscribe content block present."
-   ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/14ad7f16-9b02-4059-95de-3570ff62d79e)
+   ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/30dd09c2-8f8b-4201-9a21-813db378ca9c)
+   ![cb](https://github.com/Balu-Phanendra-K/alias/assets/144592153/bfafc301-7052-440b-b033-1eb85a7dbd37)
+
+
+
 
