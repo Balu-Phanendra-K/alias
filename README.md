@@ -68,9 +68,6 @@ Alias Validator performs a thorough analysis of the provided HTML code and provi
 *  ###  Consecutive <!--[if mso]> Tags Error:
         "Two consecutive <!--[if mso]> tags detected."
    ![image](https://github.com/Balu-Phanendra-K/alias/assets/144592153/a415b743-a03b-449a-bd05-68bf7599a9ee)
-   <img width="960" alt="image" src="https://github.com/Balu-Phanendra-K/alias/assets/144592153/081287c1-89b8-4560-82e3-965cdcd09ae7">
-
-
 
 
 *  ###  Unsubscribe Content Block:
