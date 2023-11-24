@@ -1,7 +1,7 @@
 # Alias Validator.
 Welcome to Alias Validator!
 
-Alias Validator is a powerful tool designed to streamline the content PR and individual developer alias validation process. This web application provides a simple yet effective solution to validate HTML code, ensuring that it adheres to specific standards and guidelines. Follow this comprehensive user guide to make the most out of Alias Validator.
+Alias Validator is a tool designed to streamline the content PR and individual developer alias validation process. This web application provides a simple yet effective solution to validate HTML code, ensuring that it adheres to specific standards and guidelines. Follow this comprehensive user guide to make the most out of Alias Validator.
 # Getting Started
 
 
