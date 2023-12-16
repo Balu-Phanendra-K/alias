@@ -3,6 +3,8 @@
             text-align: center;
             background-size: cover;
             transition: background-image 1s ease-in-out;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Use a similar font */
+
         }
 
         h1 {
@@ -29,6 +31,39 @@
 		padding: 2px; 
                 border-radius: 10px; 
 	    }
+#topRightButton {
+            position: fixed;
+            top: 2px; 
+            right: 5px; 
+            background-color: #2d333b; 
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: 1px solid #4b5863; 
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
+
+        #topRightButton:hover {
+            background-color: #24292e; 
+        }
+
+        #topRightButton i {
+            margin-right: 8px;
+            animation: blinkCat 3s infinite; 
+        }
+
+        @keyframes blinkCat {
+            0%, 50%, 100% {
+                opacity: 1;
+            }
+            25%, 75% {
+                opacity: 0;
+            }
+        }
 		
 
         .container {
