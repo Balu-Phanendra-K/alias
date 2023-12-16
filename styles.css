@@ -11,15 +11,25 @@
 			
 
         }
-		mark { 
-			  background-color:    #000000   ;
-			  color:   #F86464
- ;
-			  
-            
-            padding: 10px; 
-            border-radius: 18px; 
-}
+	h5 {
+            color: red;
+            font-family: 'Poppins';
+			
+
+      	  }
+	mark { 
+		background-color:    #000000   ;
+		color:   #487060 ;
+		padding: 10px; 
+                border-radius: 18px; 
+            }
+	mark1 { 
+		background-color:    #483632   ;
+		color:   #D8E0C3 ;
+		padding: 2px; 
+                border-radius: 10px; 
+	    }
+		
 
         .container {
             margin: 50px;
