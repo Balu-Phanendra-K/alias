@@ -33,27 +33,28 @@
 	    }
 #topRightButton {
             position: fixed;
-            top: 2px; 
-            right: 5px; 
-            background-color: #2d333b; 
+            top: 5px;
+            right: 5px;
+            background: linear-gradient(to right, #333333, #555555); /* Gradient button background in black and grey */
             color: #ffffff;
-            padding: 10px 20px;
+            padding: 15px 15px;
             text-decoration: none;
-            border: 1px solid #4b5863; 
-            border-radius: 6px;
+            border: none;
+            border-radius: 30px;
             cursor: pointer;
             display: flex;
             align-items: center;
-            transition: background-color 0.3s ease;
+            transition: background 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a lifted effect */
         }
 
         #topRightButton:hover {
-            background-color: #24292e; 
+            background: linear-gradient(to right, #555555, #333333); /* Gradient button background on hover */
         }
 
         #topRightButton i {
-            margin-right: 8px;
-            animation: blinkCat 3s infinite; 
+            margin-right: 10px;
+            animation: blinkCat 5s infinite; /* Adjusted blinking animation with a slower frequency */
         }
 
         @keyframes blinkCat {
