@@ -35,9 +35,9 @@
             position: fixed;
             top: 5px;
             right: 5px;
-            background: linear-gradient(to right, #333333, #555555); /* Gradient button background in black and grey */
+            background: linear-gradient(to right, #441356, #38027E); 
             color: #ffffff;
-            padding: 15px 15px;
+            padding: 10px 12px;
             text-decoration: none;
             border: none;
             border-radius: 30px;
@@ -45,16 +45,16 @@
             display: flex;
             align-items: center;
             transition: background 0.3s ease;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a lifted effect */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
         }
 
         #topRightButton:hover {
-            background: linear-gradient(to right, #555555, #333333); /* Gradient button background on hover */
+            background: linear-gradient(to right, #38027E,#441356);
         }
 
         #topRightButton i {
             margin-right: 10px;
-            animation: blinkCat 5s infinite; /* Adjusted blinking animation with a slower frequency */
+            animation: blinkCat 5s infinite; 
         }
 
         @keyframes blinkCat {
