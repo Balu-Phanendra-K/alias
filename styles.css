@@ -6,7 +6,23 @@
             font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Use a similar font */
 
         }
-
+ #preview {
+    width: 100%;
+    min-height: 300px; /* Adjust height as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none; /* Hide preview by default */
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    overflow: auto;
+  }
+  
+ 
         h1 {
             color: #302946;
             font-family: 'Poppins';
