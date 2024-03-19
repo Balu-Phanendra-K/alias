@@ -100,13 +100,7 @@
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         }
-  .container1 {
-            margin: 50px;
-            padding: 20px;
-            background-color:     #403c3b   ;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-        }
+
 
         textarea {
             width: 80%;
