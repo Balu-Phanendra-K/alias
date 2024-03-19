@@ -7,29 +7,20 @@
 
         }
  #preview {
-    width: 100%;
-    min-height: 300px; /* Adjust height as needed */
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-    display: none; /* Hide preview by default */
-    background: linear-gradient(135deg, #FF3D00, #00BCD4, #00BCD4);
-    background-size: 600% 600%;
-    animation: gradientAnimation 10s ease infinite;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #fff;
-    overflow: auto;
-  }
-  @keyframes gradientAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    100% {
-      background-position: 100% 50%;
-    }
-  }
+width:100%;
+min-height:300px;
+border: 1px solid #ccc;
+border-radius: 5px;
+padding:20px;
+box-sizing:border-box;
+display: none;
+background-color:#a69279;
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height:1.6;
+color:#333;
+overflow: auto;
+}
   
  
         h1 {
