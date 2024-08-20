@@ -3,79 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Server Error · GitHub</title>
+    <title>Temporarily Not Available</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             margin: 0;
-            padding: 0;
-            background-color: #f6f8fa;
-            color: #24292e;
-            text-align: center;
+            background-color: #0d1117;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+            color: #c9d1d9;
         }
         .container {
-            padding: 60px 20px;
+            text-align: center;
+            max-width: 400px;
+            padding: 20px;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            background-color: #161b22;
         }
         h1 {
             font-size: 2.5em;
-            font-weight: 400;
+            margin-bottom: 10px;
+            color: #58a6ff;
         }
-        .octocat {
-            width: 120px;
+        p {
+            font-size: 1.1em;
+            color: #8b949e;
             margin-bottom: 20px;
         }
-        .error-message {
-            font-size: 1.5em;
-            margin-top: 20px;
-        }
-        .support {
-            margin-top: 30px;
-            font-size: 1em;
-            color: #586069;
-        }
-        .support a {
-            color: #0366d6;
-            text-decoration: none;
-        }
-        .support a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            margin-top: 40px;
-            font-size: 0.875em;
-            color: #586069;
-        }
-        .container img {
-            width: 80px;
-        }
-        .main-content {
-            max-width: 600px;
+        .loader {
+            border: 4px solid #30363d;
+            border-top: 4px solid #58a6ff;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
             margin: 0 auto;
-            padding: 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="octocat">
-        <div class="main-content">
-            <h1>Server Error</h1>
-            <p class="error-message">Oops! Something went wrong.</p>
-            <p class="support">
-                Please try again later, or visit our
-                <a href="https://www.githubstatus.com/">status page</a> for updates.
-                If this problem persists, contact
-                <a href="https://support.github.com/">GitHub Support</a>.
-            </p>
-        </div>
+        <h1>we'll Be Right Back</h1>
+        <p>I'm fixing something right now. Please check back soon.</p>
+        <div class="loader"></div>
     </div>
-    <footer>
-        <p>&copy; 2024 GitHub, Inc. All rights reserved.</p>
-        <p>
-            <a href="https://github.com/security">Security</a> ·
-            <a href="https://github.com/privacy">Privacy</a> ·
-            <a href="https://github.com/terms">Terms</a>
-        </p>
-    </footer>
 </body>
 </html>
