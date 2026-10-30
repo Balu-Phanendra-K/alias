@@ -1,0 +1,131 @@
+  body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-size: cover;
+            transition: background-image 1s ease-in-out;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Use a similar font */
+
+        }
+ #preview {
+    width: 100%;
+    min-height: 300px; /* Adjust height as needed */
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none; /* Hide preview by default */
+    background: linear-gradient(135deg, #FF3D00, #00BCD4, #00BCD4);
+    background-size: 600% 600%;
+    animation: gradientAnimation 10s ease infinite;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+    overflow: auto;
+  }
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+ 
+        h1 {
+            color: #302946;
+            font-family: 'Poppins';
+			
+
+        }
+	h5 {
+            color: red;
+            font-family: 'Poppins';
+			
+
+      	  }
+	mark { 
+		background-color:    #000000   ;
+		color:   #487060 ;
+		padding: 10px; 
+                border-radius: 18px; 
+            }
+	mark1 { 
+		background-color:    #483632   ;
+		color:   #D8E0C3 ;
+		padding: 2px; 
+                border-radius: 10px; 
+	    }
+#topRightButton {
+            position: fixed;
+            top: 5px;
+            right: 5px;
+            background: linear-gradient(to right, #441356, #38027E); 
+            color: #ffffff;
+            padding: 10px 12px;
+            text-decoration: none;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            transition: background 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        }
+
+        #topRightButton:hover {
+            background: linear-gradient(to right, #38027E,#441356);
+        }
+
+        #topRightButton i {
+            margin-right: 10px;
+            animation: blinkCat 5s infinite; 
+        }
+
+        @keyframes blinkCat {
+            0%, 50%, 100% {
+                opacity: 1;
+            }
+            25%, 75% {
+                opacity: 0;
+            }
+        }
+		
+
+        .container {
+            margin: 50px;
+            padding: 20px;
+            background-color:     #403c3b   ;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        textarea {
+            width: 80%;
+            height: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            background-color: #1E1E1E;
+            color: #FFFFFF;
+            border: 1px solid #555;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 12px 28px;
+            background-color: #F02B2B;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+        button:hover {
+            background-color: #28BD16;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
