@@ -3,56 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temporarily Not Available</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #0d1117;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-            color: #c9d1d9;
-        }
-        .container {
-            text-align: center;
-            max-width: 400px;
-            padding: 20px;
-            border: 1px solid #30363d;
-            border-radius: 6px;
-            background-color: #161b22;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            color: #58a6ff;
-        }
-        p {
-            font-size: 1.1em;
-            color: #8b949e;
-            margin-bottom: 20px;
-        }
-        .loader {
-            border: 4px solid #30363d;
-            border-top: 4px solid #58a6ff;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="encrypted.css">
+
+    <title>PR Optimizer</title>
+    <link rel="shortcut icon" type="image/png" href="icc.png">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script src="gate.js" defer></script>
 </head>
+
 <body>
-    <div class="container">
-        <h1> Be Right Back</h1>
-        <p> I'm fixing something  right now. Please check back soon.</p>
-        <div class="loader"></div>
+
+    <!-- PASSWORD SCREEN -->
+    <div id="passwordScreen">
+
+        <div class="password-card">
+
+            <div class="lock-icon">
+                <i class="fas fa-lock"></i>
+            </div>
+
+            <h2>Restricted Access</h2>
+
+            <p>Enter your access password to continue.</p>
+
+            <div class="time-info">
+                <i class="far fa-clock"></i>
+                <span id="timePeriod">Checking access period...</span>
+            </div>
+
+            <div class="password-input-wrapper">
+                <input
+                    type="password"
+                    id="accessPassword"
+                    placeholder="Enter password"
+                    autocomplete="off"
+                >
+
+                <button type="button" id="togglePassword">
+                    <i class="fas fa-eye"></i>
+                </button>
+            </div>
+
+            <button id="loginButton">
+                <i class="fas fa-unlock-alt"></i> Unlock Access
+            </button>
+
+            <p id="errorMessage"></p>
+
+            <div class="access-footer">
+                AUTHORIZED ACCESS ONLY
+            </div>
+
+        </div>
+
     </div>
+
+
+    <!-- ACTUAL WEBSITE CONTENT -->
+    <div id="appContent" style="display:none;">
+
+        <h5>
+            <mark1>
+                Note: Alias inside MSO code are also considered as duplicates.
+                Please ignore them in case an error shows up.
+            </mark1>
+        </h5>
+
+        <a href="https://github.com/Balu-Phanendra-K/alias"
+           target="_blank"
+           id="topRightButton">
+            <i class="fab fa-github"></i>
+            Visit GitHub
+        </a>
+
+        <div class="container">
+
+            <h1>
+                <mark>Quick Peer Review Optimizer</mark>
+            </h1>
+
+            <textarea
+                id="htmlInput"
+                placeholder="Paste your HTML code here">
+            </textarea>
+
+            <br>
+
+            <button id="checkButton">
+                <b>Validate</b>
+            </button>
+
+            <button id="previewBtn" onclick="togglePreview()">
+                Preview
+            </button>
+
+            <button id="printAliasesButton">
+                <b>List Aliases & Links</b>
+            </button>
+
+            <div id="result"></div>
+            <br>
+
+            <div id="preview"></div>
+
+        </div>
+
+    </div>
+
 </body>
 </html>
